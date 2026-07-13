@@ -2,9 +2,9 @@
 
 Ein inoffizieller, intelligenter Telegram-Bot, der alle Meldungen von **lebensmittelwarnung.de** in Echtzeit verarbeitet. Er bietet automatische Benachrichtigungen, eine umfassende Archivierung im Forum-Stil und proaktive Änderungserkennung für deine Sicherheit.
 
-🔗 **Offizielle Projekt-Webseite:** [telegramtrainer.github.io/Lebensmittelwarnung/](https://www.google.com/search?q=https://telegramtrainer.github.io/Lebensmittelwarnung/)
+🔗 **Offizielle Projekt-Webseite:** [telegramtrainer.github.io/Lebensmittelwarnung/](https://telegramtrainer.github.io/Lebensmittelwarnung/)
 
-✈️ **Direkt zum Bot:** [@LebensmittelwarnungBot](https://t.me/lebensmittelwarnungbot)
+✈️ **Direkt zum Bot:** [@LebensmittelwarnungBot](https://telegram.me/lebensmittelwarnungbot)
 
 ---
 
