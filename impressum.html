@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum – RealMates</title>
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#10161F">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%230098EA'/><path d='m7.5 12.5 3 3 6-7' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <style>
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('fonts/inter-latin-400-normal.woff2') format('woff2'); }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('fonts/inter-latin-600-normal.woff2') format('woff2'); }
+    @font-face { font-family: 'Inter'; font-style: normal; font-weight: 800; font-display: swap; src: url('fonts/inter-latin-800-normal.woff2') format('woff2'); }
+    :root { --blue: #0098EA; --blue-light: #45AEF5; --ink: #FFFFFF; --muted: #8994A3; --bg: #10161F; --bg-soft: #1D2633; --border: rgba(255,255,255,.08); }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    a { color: var(--blue-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 3.5rem 24px 5rem; }
+    .back { display: inline-flex; align-items: center; gap: .4rem; color: var(--muted); font-size: .9375rem; font-weight: 600; margin-bottom: 2.5rem; }
+    h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); font-weight: 800; letter-spacing: -.02em; margin-bottom: 2rem; }
+    h2 { font-size: 1.2rem; font-weight: 700; margin: 2.25rem 0 .75rem; }
+    p { color: var(--muted); margin-bottom: 1rem; }
+    p strong { color: var(--ink); font-weight: 600; }
+    .card { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin: 1rem 0; }
+    footer { max-width: 760px; margin: 0 auto; padding: 1.5rem 24px 2.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .875rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="index.html">← Zurück zur Startseite</a>
+    <h1>Impressum</h1>
+    <h2>Kontakt</h2>
+    <div class="card">
+      <p>Dieses Angebot ist ein privates, nicht-kommerzielles Open-Source-Projekt unter dem Namen <strong>RealMates</strong>.</p>
+      <p>E-Mail: <strong>saveplacedata@protonmail.com</strong></p>
+      <p>Telegram: <a href="https://t.me/LebensmittelwarnungBot" target="_blank" rel="noopener noreferrer">@LebensmittelwarnungBot</a></p>
+    </div>
+    <h2>Verantwortlich für den Inhalt</h2>
+    <div class="card">
+      <p><strong>Projekt-Team RealMates</strong></p>
+      <p>Kontakt ausschließlich elektronisch per E-Mail.</p>
+    </div>
+    <h2>Hinweis zum Projekt</h2>
+    <p>RealMates ist ein privates, nichtkommerzielles Open-Source-Projekt und <strong>keine amtliche Quelle</strong>. Es besteht keine Verbindung zum Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL) oder den Betreibern von lebensmittelwarnung.de. Maßgeblich und rechtsverbindlich sind ausschließlich die aktuellen Veröffentlichungen der zuständigen Behörden auf lebensmittelwarnung.de.</p>
+  </div>
+  <footer>
+    © <span id="copyright-jahr">2026</span> RealMates · <a href="datenschutz.html">Datenschutz</a>
+  </footer>
+  <script> document.getElementById('copyright-jahr').textContent = new Date().getFullYear(); </script>
+</body>
+</html>
