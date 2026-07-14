@@ -1,3 +1,6 @@
+[![Platform](https://img.shields.io/badge/Platform-Telegram-0088cc.svg)](https://t.me/lebensmittelwarnungbot)
+[![Status](https://img.shields.io/badge/Status-Online-green.svg)](https://t.me/lebensmittelwarnungbot)
+
 # Lebensmittelwarnung-Bot – Telegram Bot 🥫
 
 Ein inoffizieller, intelligenter Telegram-Bot, der alle Meldungen von **lebensmittelwarnung.de** in Echtzeit verarbeitet. Er bietet automatische Benachrichtigungen, eine umfassende Archivierung im Forum-Stil und proaktive Änderungserkennung für deine Sicherheit.
