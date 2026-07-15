@@ -1,5 +1,8 @@
 [![Platform](https://img.shields.io/badge/Platform-Telegram-0088cc.svg)](https://t.me/lebensmittelwarnungbot)
 [![Status](https://img.shields.io/badge/Status-Online-green.svg)](https://t.me/lebensmittelwarnungbot)
+<p align="center">
+  <img src="assets/banner.png" alt="Aegis Banner" width="100%">
+</p>
 
 # Lebensmittelwarnung-Bot – Telegram Bot 🥫
 
